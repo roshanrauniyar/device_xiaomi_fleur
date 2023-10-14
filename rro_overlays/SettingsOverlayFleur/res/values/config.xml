@@ -35,4 +35,8 @@
     <!-- Whether to show min/max refresh rate in display settings -->
     <bool name="config_show_refresh_rate_controls">true</bool>
     <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
+
+    <!-- ROM maintainer name -->
+    <string name="build_maintainer_summary">Rohit Tiwari</string>
+
 </resources>
