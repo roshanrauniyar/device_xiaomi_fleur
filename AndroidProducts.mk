@@ -5,17 +5,20 @@
 #
 
 PRODUCT_MAKEFILES := \
-   
-    $(LOCAL_DIR)/evolution_fleur.mk 
+    $(LOCAL_DIR)/aicp_fleur.mk 
+    #$(LOCAL_DIR)/evolution_fleur.mk 
     #$(LOCAL_DIR)/lineage_fleur.mk 
     #$(LOCAL_DIR)/aosp_fleur.mk
     #$(LOCAL_DIR)/superior_fleur.mk 
 
 COMMON_LUNCH_CHOICES := \
-    evolution_fleur-user \
-    evolution_fleur-userdebug \
-    evolution_fleur-eng 
+    aicp_fleur-user \
+    aicp_fleur-userdebug \
+    aicp_fleur-eng 
 
+    #evolution_fleur-user \
+    #evolution_fleur-userdebug \
+    #evolution_fleur-eng 
     #lineage_fleur-user \
     #lineage_fleur-userdebug \
     #lineage_fleur-eng 
